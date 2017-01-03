@@ -1,0 +1,22 @@
+{
+  "name": "react-redux-demo",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "identity"
+  ],
+  "oauth2": {
+    "client_id": "701093380956-kekhdotia5h7jugh3rhqrndlqimh1h7s.apps.googleusercontent.com",
+    "scopes": [
+      "https://mail.google.com/"
+    ]
+  }
+}
